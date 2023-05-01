@@ -25,7 +25,7 @@ function Summary() {
                 <div className="card-body">
                     <h5 className="card-title mt-2 mb-3">Summary</h5>
                         <div class="summary__item1 mb-3 d-flex align-items-center justify-content-center flex-row">
-                            <img class="summary__item__icon" src={reaction} alt="" />
+                            <img class="summary__item__icon" src={reaction} alt="reaction" />
                                     <p class="summary__item__title reaction flex-fill" >Reaction</p>
                                         <p class="summary__item__wrapper align-items-end">
                                     <span class="summary__item__score">80</span>
@@ -33,7 +33,7 @@ function Summary() {
                         </div>
 
                         <div class="summary__item2 mb-3 d-flex align-items-center justify-content-center flex-row">
-                            <img class="summary__item__icon" src={memory} alt="" />
+                            <img class="summary__item__icon" src={memory} alt="memory" />
                                     <p class="summary__item__title memory flex-fill" >Memory</p>
                                         <p class="summary__item__wrapper align-items-end">
                                     <span class="summary__item__score">92</span>
@@ -41,7 +41,7 @@ function Summary() {
                         </div>
 
                         <div class="summary__item3 mb-3 d-flex align-items-center justify-content-center flex-row">
-                            <img class="summary__item__icon" src={verbal} alt="" />
+                            <img class="summary__item__icon" src={verbal} alt="verbal" />
                                     <p class="summary__item__title verbel flex-fill" >Verbal</p>
                                         <p class="summary__item__wrapper align-items-end">
                                     <span class="summary__item__score">61</span>
@@ -49,7 +49,7 @@ function Summary() {
                         </div>
 
                         <div class="summary__item4 mb-3 d-flex align-items-center justify-content-center flex-row">
-                            <img class="summary__item__icon" src={visual} alt="" />
+                            <img class="summary__item__icon" src={visual} alt="visual" />
                                     <p class="summary__item__title visual flex-fill" >Visual</p>
                                         <p class="summary__item__wrapper align-items-end">
                                     <span class="summary__item__score">72</span>
